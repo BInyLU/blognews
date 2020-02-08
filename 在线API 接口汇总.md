@@ -21,3 +21,45 @@
   - **API例子**：<http://121.43.124.47:3002/cili?id=wNWYor>
 - 请求方式：GET
 - API说明：BinySou 磁力搜索 是本人扒取某个磁力库得到的数据，经过整合API后，目前可以调用数据。
+
+
+
+**bilibili 订阅动画API参数：**
+
+- 请求地址：https://api.bilibili.com/x/space/bangumi/follow/list?type=1&follow_status=0&pn=1&ps=15&vmid=54200948
+- 请求方式：GET
+- 必须参数：vmid（B站UID账号）
+
+
+
+**bilibili 个人信息API参数：**
+
+- 请求地址1：https://api.bilibili.com/x/space/acc/info?mid=54200948
+- 请求地址2：https://api.bilibili.com/x/web-interface/card?mid=54200948&photo=true
+- 请求方式：GET
+- 必须参数：mid（B站UID账号）
+
+
+
+**bilibili 我的视频API参数：**
+
+- 请求地址：https://api.bilibili.com/x/space/arc/search?mid=54200948&ps=30&tid=0&pn=1
+- 请求方式：GET
+- 必须参数：mid（B站UID账号）
+
+
+
+**网易云音乐歌单API参数：**
+
+- 请求地址：http://localhost:3000/v1/playlist/detail?id=477684994
+- 请求方式：GET
+- 必须参数：id（歌单ID）
+
+
+
+**全国新型肺炎疫情最新数据接口API参数：**
+
+- 请求地址：https://www.tianqiapi.com/api?version=epidemic&appid=24322911&appsecret=VGfMOF1p
+- 请求方式：GET
+- 必须参数：appid、appsecret
+
