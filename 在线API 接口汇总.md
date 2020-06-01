@@ -63,3 +63,25 @@
 - 请求方式：GET
 - 必须参数：appid、appsecret
 
+
+
+**QQ头像API参数：**
+
+- 请求地址：[https://q1.qlogo.cn/g?b=qq&s=100&nk=1559867170](https://q1.qlogo.cn/g?b=qq&s=100&nk=1559867170)
+- 请求方式：GET
+- 必须参数：nk
+
+
+
+**分享到QQ空间接口**：
+
+- 请求地址：[https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=你的网址&sharesource=qzone&title=你的分享标题&pics=你的分享图片&summary=你的分享描述信息](https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=你的网址&sharesource=qzone&title=你的分享标题&pics=你的分享图片&summary=你的分享描述信息)
+- 请求方式：GET
+- 必须参数：url、title、pics、summary
+
+
+
+**备案底部链接**
+
+- 地址：http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802028541
+- 参数：recordcode
